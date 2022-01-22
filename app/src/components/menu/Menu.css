@@ -1,0 +1,26 @@
+.menu {
+    position: fixed;
+    top: 61px;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    border-left: 1px solid #525252;
+}
+
+.menu a {
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    height: 20px;
+    width: 170px;
+    color: #525252;
+    text-decoration: none;
+    border-bottom: 1px solid #525252;
+}
+
+.menu a:hover {
+    background-color: #EEEEEE;
+}
